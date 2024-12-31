@@ -182,7 +182,7 @@ export const secretTeamData: CustomTeam[] = [
             cost: 60,
             max: 8,
         },
-        allowedApothecary: false,
+        allowedApothecary: true,
         tier: 2,
         specialRules: ['Old World Classic'],
     },
@@ -2820,5 +2820,34 @@ export const secretTeamData: CustomTeam[] = [
         allowedApothecary: true,
         tier: 1,
         specialRules: ['Sylvanian Spotlight'],
+    },
+    {
+        name: 'Cathay',
+        id: 'st1092',
+        players: [
+            {
+                id: 1390,
+                max: 16,
+            },
+            {
+                id: 1391,
+                max: 4,
+            },
+            {
+                id: 1392,
+                max: 4,
+            },
+            {
+                id: 1393,
+                max: 1,
+            },
+        ],
+        reroll: {
+            cost: 50,
+            max: 8,
+        },
+        allowedApothecary: true,
+        tier: 1,
+        specialRules: ['Old World Classic'],
     },
 ];
